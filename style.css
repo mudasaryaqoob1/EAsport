@@ -546,7 +546,9 @@ textarea {
   background-repeat: no-repeat;
   height: 870.83px;
 }
-
+.home-section {
+  background: #212121;
+}
 .home-section-headings {
   width: 100%;
   max-width: 688.1px;
@@ -1888,5 +1890,293 @@ textarea {
   .social-icons {
     width: 219px;
     gap: 13px;
+  }
+}
+/* portfolio page */
+.Portfolio-section-content-heading {
+  display: flex;
+  gap: 200px;
+}
+.Portfolio-section {
+  background-color: #212121;
+}
+.Portfolio-section .home-section-headings {
+  padding: 0%;
+}
+.Portfolio-section .Slider-image,
+.Slider-image-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Portfolio-section .home-section-heading {
+  font-size: 70px;
+}
+.Portfolio-section .Slider-image {
+  background-image: url("sli4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 870.83px;
+}
+@media (max-width: 1200px) {
+  .Portfolio-section-content-heading {
+    flex-direction: column-reverse;
+    gap: 190px;
+    align-items: center;
+    padding-top: 199px;
+  }
+  .Portfolio-section .Slider-image,
+  .Slider-image-2 {
+    height: 100%;
+  }
+  .Portfolio-section-imge {
+    width: 360px;
+  }
+  .Portfolio-section .home-section-headings {
+    padding-bottom: 240px;
+  }
+}
+.portfo-informatoin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+.Portfolio-logo {
+  background: rgba(247, 192, 3, 1);
+}
+.portfo-informatoin-text-heading {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25.55px;
+  text-align: center;
+  color: rgba(33, 33, 33, 1);
+}
+.portfo-informatoin-text-paragraph {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.07px;
+  text-align: center;
+  color: rgba(33, 33, 33, 1);
+}
+.portfo-informatoin-imge2 {
+  display: none;
+}
+@media (max-width: 760px) {
+  .portfo-informatoin-imge {
+    display: none;
+  }
+  .portfo-informatoin-imge2 {
+    display: block;
+  }
+  .portfo-informatoin {
+    flex-direction: column;
+    gap: 43px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .Portfolio-section .home-section-heading {
+    font-size: 30px;
+  }
+  .Portfolio-section-imge {
+    width: 189.38px;
+  }
+  .Portfolio-section-content-heading {
+    padding-top: 126px;
+    gap: 147px;
+  }
+  .Portfolio-section .home-section-headings {
+    padding-bottom: 118px;
+  }
+}
+
+.Portfolio-section-2 {
+  background-color: #212121;
+  height: 1080px;
+  display: flex;
+  align-items: center;
+}
+.Portfolio-section-2-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Portfolio-section-2-vedio video {
+  width: 100%;
+  max-width: 716px;
+}
+.Portfolio-section-2-text {
+  width: 600px;
+}
+.Portfolio-section-2-text-heading {
+  width: 504px;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 74.52px;
+  text-align: left;
+  color: rgba(216, 216, 216, 1);
+  padding-bottom: 50px;
+}
+.Portfolio-section-2-text-paragraph {
+  width: 598px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37.61px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.our-portfolio-container .our-team-slider-container {
+  background: rgba(33, 33, 33, 1);
+}
+@media (max-width: 1024px) {
+  .Portfolio-section-2-content {
+    flex-direction: column;
+  }
+  .Portfolio-section-2 {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  .Portfolio-section-2-text,
+  .Portfolio-section-2-text-heading,
+  .Portfolio-section-2-text-paragraph {
+    width: 90%;
+    /* padding-left: 10px; */
+  }
+}
+.our-portfolio-container .imges-down {
+  justify-content: center;
+}
+.Project-container {
+  background: rgba(16, 16, 16, 1);
+  height: 162.65px;
+  display: flex;
+  align-items: center;
+}
+.previus-project-text-heading {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30.66px;
+  text-align: center;
+  color: rgba(65, 65, 65, 1);
+}
+.Projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 136px;
+}
+.previus-project {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.next-project {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.next-project-text-heading {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30.66px;
+  text-align: center;
+  color: rgba(247, 192, 3, 1);
+}
+@media (max-width: 764px) {
+  .next-project-text-heading,
+  .previus-project-text-heading {
+    font-size: 15px;
+  }
+  .Projects {
+    gap: 30px;
+  }
+}
+.portfo-informatoin-project .about-projects-heading {
+  color: rgba(216, 216, 216, 1);
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30.66px;
+  text-shadow: none;
+}
+.portfo-informatoin-project .about-projects-heading2 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.07px;
+  text-align: left;
+}
+.blog-section {
+  background-color: #212121;
+}
+.blog-section .Slider-image,
+.Slider-image-2 {
+  background-image: url("blog-1-img-6\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 870.83px;
+}
+.blog-section-2 {
+  background-color: #212121;
+  padding-top: 60px;
+}
+.blog-date {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 23.15px;
+  color: rgba(216, 216, 216, 1);
+}
+.blog-section-content-heading1 {
+  font-family: Poppins;
+  font-size: 70.78px;
+  font-weight: 600;
+  line-height: 86.14px;
+  color: rgba(247, 192, 3, 1);
+}
+.blog-section-content-paragraph {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 31.94px;
+  color: rgba(216, 216, 216, 1);
+}
+.blog-section-content-heading2 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 47.91px;
+  color: rgba(216, 216, 216, 1);
+}
+.blog-section-content-heading {
+  border-bottom: 1px solid rgba(64, 64, 64, 1);
+  padding-bottom: 50px;
+}
+.blog-section-2 .companay-information-text {
+  padding-top: 30px;
+}
+.blog-section-2 .information-heading {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 63.88px;
+  color: rgba(216, 216, 216, 1);
+}
+
+@media (max-width: 764px) {
+  .blog-section-content-heading1 {
+    font-size: 30px;
+  }
+  .blog-section-content-paragraph {
+    font-size: 14px;
   }
 }
