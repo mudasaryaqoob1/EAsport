@@ -540,7 +540,7 @@ textarea {
   height: 870.83px;
 }
 
-.Slider-image-2 {
+.home-section .Slider-image-2 {
   background-image: url("Hero\ 3\ 1.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -629,7 +629,7 @@ textarea {
     font-size: 20px;
   }
 
-  .Slider-image,
+  .home-section .Slider-image,
   .Slider-image-2 {
     height: 661.28px;
   }
@@ -999,6 +999,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #212121;
 }
 .swiper-slide {
   background-image: url("Group\ 1000003755.png");
@@ -1473,6 +1474,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #212121;
 }
 .swiper-slide {
   background-image: url("Group\ 1000003755.png");
@@ -1903,8 +1905,12 @@ textarea {
 .Portfolio-section .home-section-headings {
   padding: 0%;
 }
-.Portfolio-section .Slider-image,
-.Slider-image-2 {
+.Portfolio-section .Slider-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Portfolio-section .Slider-image-2{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2029,6 +2035,17 @@ textarea {
   line-height: 37.61px;
   text-align: left;
   color: rgba(255, 255, 255, 1);
+}
+.our-portfolio-container{
+  background-color: #212121;
+}
+.our-portfolio-container .testimonial-slider-headings{
+  background: rgba(11, 11, 11, 1);
+}
+.our-portfolio-container .swiper-slide{
+  background-size: 0;
+  background: rgba(11, 11, 11, 1);
+
 }
 .our-portfolio-container .our-team-slider-container {
   background: rgba(33, 33, 33, 1);
