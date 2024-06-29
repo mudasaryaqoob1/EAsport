@@ -1961,16 +1961,22 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-.Portfolio-section .Slider-image-2{
+/* .Portfolio-section .Slider-image-2{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .Portfolio-section .home-section-heading {
   font-size: 70px;
 }
 .Portfolio-section .Slider-image {
   background-image: url("sli4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 870.83px;
+}
+.Portfolio-section .Slider-image-2 {
+  background-image: url("slider2.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 870.83px;
@@ -2048,8 +2054,9 @@ textarea {
     padding-top: 126px;
     gap: 147px;
   }
-  .Portfolio-section .home-section-headings {
-    padding-bottom: 118px;
+  .Portfolio-section .home-section-headings{
+    padding-bottom: 179px;
+    padding-left: 30px;
   }
 }
 
