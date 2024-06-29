@@ -1014,6 +1014,10 @@ textarea {
   background-size: 100%;
 }
 
+.our-services-slider-container .swiper-slide{
+  background: transparent !important;
+}
+
 
 .services-text-headings img {
   width: 275.33px;
@@ -1167,7 +1171,9 @@ textarea {
   height: 1080px;
   width: 100%;
   background-color: #212121;
+  position: relative;
 }
+
 .testimonial-slider {
   display: flex;
   flex-direction: column;
