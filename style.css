@@ -117,6 +117,17 @@ path:hover {
   color: rgba(255, 255, 255, 1);
   transition: all 500ms;
 }
+#navigation-manu-link-brands{
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 18.73px;
+  font-weight: 400;
+  line-height: 20.55px;
+  color: rgba(255, 255, 255, 1);
+  transition: all 500ms;
+  background: transparent;
+  border: none;
+}
 
 .active,
 .navigation-manu-links:hover {
@@ -191,7 +202,7 @@ path:hover {
   font-size: 40px;
   position: fixed;
   right: 10px;
-  top: 30px;
+  top: 0;
   line-height: 80px;
   margin-right: 20px;
   cursor: pointer;
@@ -223,6 +234,7 @@ path:hover {
   .navigation-logo-side-bar {
     display: flex;
     width: 146px;
+    padding-top: 10px;
   }
   .slidedown .navigation-logo-image {
     padding-left: 50px;
@@ -261,7 +273,8 @@ path:hover {
   }
 
   #check:checked ~ .navigation-links {
-    top: 33px;
+    top: 0;
+    margin: 0;
     /* right: -5%; */
   }
 
@@ -483,6 +496,7 @@ textarea {
   .input-form-massage .input-boxes {
     width: 700.01px;
   }
+  
 }
 
 @media (max-width: 740px) {
@@ -490,6 +504,7 @@ textarea {
     background: rgba(33, 33, 33, 1);
     width: 100%;
     max-width: 330px;
+    height: 1100px
   }
 
   .submit-button {
@@ -514,9 +529,9 @@ textarea {
     width: 292.82px;
   }
 
-  .content-us-form {
+  /* .content-us-form {
     height: 100%;
-  }
+  } */
 
   .input-form {
     flex-direction: column;
@@ -534,7 +549,7 @@ textarea {
   text-align: center;
   /* width: 1450px !important; */
   font-size: 18px;
-  background: #fff;
+  /* background: #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1411,6 +1426,9 @@ textarea {
   /* background-image: url("Rectangle\ 433.png"); */
   background-size: 0;
 }
+.profile-slider-imges {
+  position: relative; /* Ensure this is positioned relative for absolute positioning of children */
+}
 .profile-slider-imge {
   position: relative;
   /* border: 2px solid transparent; Set border to solid and transparent */
@@ -1440,8 +1458,13 @@ textarea {
   text-align: left;
   color: rgba(255, 255, 255, 1);
   padding-bottom: 40px;
+  transition: all 0.3s;
 }
-.heading2 {
+.profile-slider-imges:hover .profile-slider-text-heading{
+  color: rgba(247, 192, 3, 1);
+  
+}
+/* .heading2 {
   color: rgba(247, 192, 3, 1);
 }
 .heading3 {
@@ -1449,7 +1472,7 @@ textarea {
 }
 .profile-slider-text-paragraphs .paragraph {
   color: rgba(247, 192, 3, 1);
-}
+} */
 .profile-slider-text-paragraph {
   font-family: Poppins;
   font-size: 18px;
@@ -1951,6 +1974,9 @@ textarea {
   .Slider-image-2 {
     height: 100%;
   }
+  .Portfolio-section .Slider-image-2 {
+    height: 100%;
+  }
   .Portfolio-section-imge {
     width: 360px;
   }
@@ -2150,12 +2176,17 @@ textarea {
 .blog-section {
   background-color: #212121;
 }
-.blog-section .Slider-image,
-.Slider-image-2 {
+.blog-section .Slider-image{
   background-image: url("blog-1-img-6\ 1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 870.83px;
+  /* height: 870.83px; */
+}
+.blog-section .Slider-image {
+  background-image: url("blog-1-img-6\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 870.83px; */
 }
 .blog-section-2 {
   background-color: #212121;

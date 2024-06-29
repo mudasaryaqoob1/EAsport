@@ -98,6 +98,32 @@ var swiper = new Swiper(".our-profile-mySwiper", {
     },
   },
 });
+var swiper = new Swiper(".our-blog-mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    300: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   const contactUsHeading = document.querySelector(".about-projects-heading");
@@ -125,4 +151,35 @@ document
   .addEventListener("click", function () {
     const swiper = document.querySelector(".testimonial_swiper_slider").swiper;
     swiper.slidePrev();
+  });
+document
+  .getElementById("testimonial-slider-right-button")
+  .addEventListener("click", function () {
+    const swiper = document.querySelector(".testimonial_swiper_slider").swiper;
+    swiper.slideNext();
+  });
+document
+  .getElementById("slider-left-button")
+  .addEventListener("click", function () {
+    const swiper = document.querySelector(".our-profile-mySwiper").swiper;
+    swiper.slidePrev();
+  });
+document
+  .getElementById("slider-right-button")
+  .addEventListener("click", function () {
+    const swiper = document.querySelector(".our-profile-mySwiper").swiper;
+    swiper.slideNext();
+  });
+document
+  .getElementById("blog-slider-left-button")
+  .addEventListener("click", function () {
+    const swiper = document.querySelector(".our-blog-mySwiper").swiper;
+    swiper.slidePrev();
+  });
+
+document
+  .getElementById("blog-slider-right-button")
+  .addEventListener("click", function () {
+    const swiper = document.querySelector(".our-blog-mySwiper").swiper;
+    swiper.slideNext();
   });
