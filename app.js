@@ -14,9 +14,13 @@ window.addEventListener('scroll', function() {
 
 document.getElementById("contact-us-button").addEventListener("click", function(){
     document.querySelector(".form-container").style.display="flex"
+    document.querySelector(".form-container").style.overflow="scroll"
+    document.querySelector("body").style.overflow="hidden"
 })
 document.querySelector(".close").addEventListener("click", function(){
     document.querySelector(".form-container").style.display="none"
+    document.querySelector("body").style.overflow="scroll"
+
 })
 
 var swiper = new Swiper(".mySwiper", {

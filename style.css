@@ -311,14 +311,21 @@ path:hover {
     height: 22.98px;
   }
 }
-
+/* .form-contact-us-container{
+  width: 100%;
+  height: 100vh;
+  display: none;
+} */
 .form-container {
   width: 100%;
+  height: 100vh;
   display: none;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   padding-top: 5px;
   z-index: 9999;
+  top: 0;
+  background-color: #382d2dcc;
 }
 
 .content-us-form {
@@ -814,10 +821,10 @@ textarea {
 }
 .about-us-right-section {
   background-image: url("About.png");
-  background-size: 784px;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: 0;
-  background-position-y: -56px;
+  /* background-position-x: 0; */
+  /* background-position-y: -56px; */
 }
 .about-us-right-section-heading {
   font-family: Poppins;
@@ -995,16 +1002,19 @@ textarea {
     padding-right: 46px;
   }
 }
+.our-services-slider-container{
+  width: 100%;
+}
 .our-services-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #212121;
-}
-.swiper-slide {
+  /* background-color: #212121; */
   background-image: url("Group\ 1000003755.png");
   background-size: 100%;
 }
+
+
 .services-text-headings img {
   width: 275.33px;
   height: 21.96px;
@@ -1476,10 +1486,10 @@ textarea {
   align-items: center;
   background-color: #212121;
 }
-.swiper-slide {
+/* .swiper-slide {
   background-image: url("Group\ 1000003755.png");
   background-size: 100%;
-}
+} */
 .our-team-text-headings img {
   width: 275.33px;
   height: 21.96px;
