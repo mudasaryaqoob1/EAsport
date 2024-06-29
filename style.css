@@ -343,7 +343,7 @@ path:hover {
 } */
 .form-container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: none;
   justify-content: center;
   position: fixed;
