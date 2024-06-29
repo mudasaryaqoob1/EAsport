@@ -127,6 +127,18 @@ path:hover {
   transition: all 500ms;
   background: transparent;
   border: none;
+  width: 105px;
+}
+#navigation-manu-link-brands {
+  background-color: transparent;
+  border: none; /* Remove border if desired */
+  color: inherit; /* Inherit text color from parent */
+  /* appearance: none; */
+/* Remove default arrow for Firefox */
+}
+#navigation-manu-link-brands option {
+  background-color: rgba(33, 33, 33, 1); /* Semi-transparent background for options */
+  color: white; /* Option text color */
 }
 
 .active,
